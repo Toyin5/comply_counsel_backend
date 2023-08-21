@@ -22,8 +22,7 @@ await database();
 
 app.use("/", (req, res) => {
   res.status(404).json({
-    code: 404,
-    message: "Endpoint Not Found",
+    message: "Welcome to the comply counsel api",
   });
 });
 
