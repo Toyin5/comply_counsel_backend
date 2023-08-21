@@ -1,0 +1,28 @@
+{
+  "name": "comply_counsel",
+  "version": "1.0.0",
+  "description": "Submission for the genz hackathon",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "type": "module",
+  "author": "Toyin",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "ai": "^2.2.6",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.1",
+    "nodemailer": "^6.9.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
